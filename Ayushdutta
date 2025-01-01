@@ -1,0 +1,5 @@
+git init
+git add .
+git commit -m "Initial commit of resource management simulation"
+git remote add origin https://github.com/username/ResourceManagementSimulation.git
+git push -u origin main
