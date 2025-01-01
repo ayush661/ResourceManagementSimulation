@@ -10,8 +10,8 @@ This project simulates the allocation and management of resources (employees, bu
 1. Run the simulation using:
 2.    python src/main.py   
 ## Contributing
- Ayush Dutta 
- src/resource.py
+ Ayush Dutta
+ ## src/resource.py
  class Resource:
     def __init__(self, name, cost):
         self.name = name
@@ -21,7 +21,7 @@ This project simulates the allocation and management of resources (employees, bu
         self.name = name
         self.budget = budget
         self.resources = []
-src/project.py
+##src/project.py
     def allocate_resource(self, resource):
         if resource.cost <= self.budget:
             self.resources.append(resource)
@@ -34,7 +34,7 @@ src/project.py
 from resource import Resource
 
 def run_simulation():
-    # Example projects
+    ## Example projects
     project1 = Project("Project A", 1000)
     project2 = Project("Project B", 500)
 
@@ -63,7 +63,7 @@ def run_simulation():
     project2.allocate_resource(res2)
     project2.allocate_resource(res1)  #
     This should fail due to budget
-   src/main.py
+   ##src/main.py
    from simulation import run_simulation
 
 if __name__ == "__main__":
